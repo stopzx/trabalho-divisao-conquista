@@ -1,0 +1,1 @@
+Sistema: Windows-11-10.0.26300-SP0\nPython: 3.15.2 (tags/v3.15.2:5e58eaa, Oct 25 2026, 17:27:03) [MSC v.1951 64 bit (AMD64)]\nProcessador: AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD\nRepetições por tamanho: 5\nSemente aleatória: 20261102\n

@@ -1,0 +1,161 @@
+{
+  "subarranjo": [
+    {
+      "entrada": [
+        -2,
+        1,
+        -3,
+        4,
+        -1,
+        2,
+        1,
+        -5,
+        4
+      ],
+      "saida": [
+        6,
+        3,
+        6
+      ],
+      "justificativa": "Caso misto clássico: há valores positivos e negativos."
+    },
+    {
+      "entrada": [
+        -8,
+        -3,
+        -6,
+        -2,
+        -5
+      ],
+      "saida": [
+        -2,
+        3,
+        3
+      ],
+      "justificativa": "Todos negativos: a resposta deve ser o maior elemento, não zero."
+    },
+    {
+      "entrada": [
+        7
+      ],
+      "saida": [
+        7,
+        0,
+        0
+      ],
+      "justificativa": "Vetor de tamanho 1."
+    },
+    {
+      "entrada": [
+        1,
+        -1,
+        1
+      ],
+      "saida": [
+        1,
+        0,
+        0
+      ],
+      "justificativa": "Empate entre intervalos; regra adotada escolhe menor início e depois menor fim."
+    },
+    {
+      "entrada": [
+        0,
+        0,
+        0
+      ],
+      "saida": [
+        0,
+        0,
+        0
+      ],
+      "justificativa": "Empate com soma zero."
+    }
+  ],
+  "par_mais_proximo": [
+    {
+      "entrada": [
+        [
+          0,
+          0
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          9,
+          9
+        ]
+      ],
+      "distancia_esperada": 1.4142135624,
+      "justificativa": "Pontos em posições variadas."
+    },
+    {
+      "entrada": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          8,
+          8
+        ]
+      ],
+      "distancia_esperada": 0.0,
+      "justificativa": "Pontos repetidos: distância zero."
+    },
+    {
+      "entrada": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "distancia_esperada": 1.0,
+      "justificativa": "Pontos alinhados."
+    },
+    {
+      "entrada": [
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "distancia_esperada": 5.0,
+      "justificativa": "Menor tamanho válido: dois pontos."
+    }
+  ]
+}
